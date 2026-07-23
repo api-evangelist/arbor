@@ -1,8 +1,15 @@
 aid: arbor
 name: Arbor
-description: Arbor is a company surfaced as a portfolio company of canaan-partners, obvious-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Arbor is a consumer energy savings service operating in deregulated electricity
+  markets across 13 states in the U.S. Northeast, Midwest, and Texas. The Arbor app analyzes
+  a household's current electricity supply rate, matches the customer with vetted alternative
+  suppliers, and automatically switches them to a lower-cost plan when one becomes available,
+  all without changing the utility provider, interrupting service, or charging the customer.
+  Arbor earns revenue through referral fees from energy suppliers rather than from consumers.
+  Founded in 2022 by Andrew Meyer (previously co-founder of Swell Energy), Arbor is backed
+  by First Round Capital, Obvious Ventures, Spring Tide Capital, and Blisce. Arbor is a
+  consumer-facing application and does not currently publish a public API, developer portal,
+  or technical documentation.
 url: https://raw.githubusercontent.com/api-evangelist/arbor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +18,29 @@ x-backed-by:
 - obvious-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/639048f907672b4a8ce23e82/67d03e2b5b1a3d6fa24a3c06_Arbor-Favicon.png
 tags:
 - Company
+- Energy
+- Electricity
+- Utilities
+- Sustainability
+- Consumer
+- Cost Savings
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/arbor-domain-security.yml
 - type: Website
   url: https://joinarbor.com
+- type: SignUp
+  url: https://my.joinarbor.com/signup
+- type: Login
+  url: https://my.joinarbor.com/login
+- type: Blog
+  url: https://www.joinarbor.com/resources
+- type: Support
+  url: https://www.joinarbor.com/faq
+- type: TermsOfService
+  url: https://www.joinarbor.com/legal/tos
+- type: PrivacyPolicy
+  url: https://www.joinarbor.com/legal/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
